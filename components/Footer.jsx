@@ -8,8 +8,8 @@ function Footer() {
     <>
         <div className='2xl:container 2xl:mx-auto font-ableton bg-white 2xl:mt-1 mt-0 '>
             <div className='flex flex-col mr-0 2xl:ml-16 pt-0 2xl:pt-10 md:ml-10 ml-5 max-[280px]:ml-0'>
-                <h1 className=' text-4xl xl:text-5xl 2xl:text-6xl font-semibold ml-5 mt-10'>Ableton</h1>
-                <div className='flex flex-col lg:flex-row justify-between mt-5 ml-5 lg:mt-10 lg:ml-5'>
+                <h1 className=' text-4xl xl:text-5xl 2xl:text-6xl font-semibold mt-10'>Ableton</h1>
+                <div className='flex flex-col lg:flex-row justify-between mt-5 lg:mt-10 lg:ml-5 2xl:ml-0'>
                     <div className='flex flex-col w-auto lg:w-[25%] text-base 2xl:text-xl'>
                         <Link href="#" className="after:content-['\00a0›'] ">
                             Register Live Or Push
@@ -67,7 +67,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col lg:flex-row justify-between ml-5'>
+                <div className='flex flex-col lg:flex-row justify-between'>
                     <div className=' mt-5 w-auto lg:w-[25%] text-base 2xl:text-xl'>
                             <h2 className='font-semibold text-xl 2xl:text-2xl'>Community</h2>
                             <p className="cursor-pointer after:content-['\00a0›'] mt-0 2xl:mt-2">
@@ -99,7 +99,7 @@ function Footer() {
                                 <option value="ja">日本語</option>
                                 <option value="zh-cn">简体中文</option>
                             </select>
-                            <select name="country_code" className='bg-[#eee] mt-2 w-[200px] ml-1'>
+                            <select name="country_code" className='bg-[#eee] mt-2 w-[25vw] lg:w-[200px] ml-1'>
                                 <option value="">Please choose</option>
                                 <optgroup label="Common Countries">
                                     <option value="us">United States</option>
@@ -365,9 +365,9 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col lg:flex-row justify-between font-medium ml-5 lg:ml-3 mt-5'>
+                <div className='flex flex-col lg:flex-row justify-between font-medium lg:ml-3 2xl:ml-0 mt-5'>
                     <div className='flex flex-col lg:flex-row list-none justify-between text-sm'>
-                        <li className='pl-0 lg:pl-2'>
+                        <li className='pl-0 lg:pl-2 2xl:pl-0'>
                             <Link href="#">
                                 Contact Us
                             </Link>

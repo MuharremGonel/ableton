@@ -46,7 +46,8 @@ function Navbar() {
   return (
     <>
       <Head>
-        <title>Abselon</title>
+        <title>Ableton</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='2xl:container  2xl:mx-auto mx-0 h-16 items-center flex justify-between text-base  font-ableton bg-white mb-0.5'>
         <div className='lg:flex lg:visible invisible hidden items-center ml-5'>
@@ -131,7 +132,7 @@ function Navbar() {
                 )
               })}
               <div className='flex flex-col ml-5 text-xl mt-2'>
-                <Link href="tryliveforfree" className=''>
+                <Link href="tryliveforfree" className='font-semibold'>
                   Try Live for free
                 </Link>
                 <Link href="tryliveforfree" className='mt-2 text-sm'>
@@ -178,7 +179,7 @@ function Navbar() {
                   </Link>
                 </li>
               </div>
-              <div className='mb-2'>
+              <div className='mb-5'>
                 <h2 className='pt-3 text-xl mb-2 font-bold'>More From Ableton:</h2>
                 <div className='flex text-sm overflow-scroll '>
                     <div className='mr-2.5 min-w-[240px]'>
